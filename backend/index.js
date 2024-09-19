@@ -13,7 +13,7 @@ app.use(cookieParser());
 app.use(bodyParser.json({ limit: '10mb' }));
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: true }));
 app.use(cors({ 
-  origin: 'https://front-sage.vercel.app',
+  origin: 'https://test-2-nfkh.vercel.app/',
   credentials: true,
 }));
 
